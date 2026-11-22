@@ -1,0 +1,16 @@
+Parallax Anything
+Copyright 2026 The Parallax Anything authors
+
+This project includes third-party code:
+
+* Depth Anything V2 (https://github.com/DepthAnything/Depth-Anything-V2)
+  Copyright (c) the Depth Anything V2 authors. Licensed under the Apache License 2.0.
+  Vendored, unmodified, in parallax_anything/third_party/depth_anything_v2/.
+  The Depth-Anything-V2-Small checkpoint is Apache-2.0; the Base/Large/Giant
+  checkpoints are CC-BY-NC-4.0 (non-commercial use only).
+
+* DINOv2 layers (https://github.com/facebookresearch/dinov2), Apache License 2.0,
+  as included in Depth Anything V2.
+
+Example photos in assets/examples/ come from the Depth Anything V2 repository's
+assets/examples folder and remain the property of their respective owners.
