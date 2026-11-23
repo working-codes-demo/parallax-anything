@@ -174,7 +174,7 @@ If you use Parallax Anything in a paper, video or project, please cite this repo
 
 ```bibtex
 @software{parallax_anything_2026,
-  author  = {{working-codes-demo}},
+  author  = {Kumar, Yogesh},
   title   = {Parallax Anything: Turn Any Photo into a Cinematic 3D Camera Move},
   year    = {2026},
   version = {0.1.0},

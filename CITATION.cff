@@ -3,8 +3,10 @@ message: "If you use Parallax Anything in your work, please cite it as below."
 type: software
 title: "Parallax Anything: turn any photo into a cinematic 3D camera move"
 authors:
-  - name: "working-codes-demo"
-    website: "https://github.com/working-codes-demo"
+  - given-names: "Yogesh"
+    family-names: "Kumar"
+    alias: "yogesh-iitj"
+    website: "https://github.com/yogesh-iitj"
 version: 0.1.0
 date-released: 2026-11-22
 license: Apache-2.0
