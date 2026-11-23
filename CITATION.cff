@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use Parallax Anything in your work, please cite it as below."
+type: software
+title: "Parallax Anything: turn any photo into a cinematic 3D camera move"
+authors:
+  - name: "working-codes-demo"
+    website: "https://github.com/working-codes-demo"
+version: 0.1.0
+date-released: 2026-11-22
+license: Apache-2.0
+repository-code: "https://github.com/working-codes-demo/parallax-anything"
+url: "https://github.com/working-codes-demo/parallax-anything"
+abstract: >-
+  Turns a single photo into a 3D parallax video: monocular depth, layered
+  rendering with occlusion inpainting, seven camera moves, depth of field and
+  seamless loops. Runs on CUDA, Apple Silicon or CPU.
+keywords:
+  - depth estimation
+  - 3D photo
+  - parallax
+  - novel view synthesis
+  - video generation

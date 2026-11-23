@@ -10,7 +10,7 @@
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-CUDA%20%7C%20Apple%20MPS%20%7C%20CPU-EE4C2C?logo=pytorch&logoColor=white)
 
-[Demo video](demo/parallax_anything_demo.mp4) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Gallery](#gallery)
+[Demo video](demo/parallax_anything_demo.mp4) · [Quick start](#quick-start) · [How it works](#how-it-works) · [Gallery](#gallery) · [Cite](#citation)
 
 </div>
 
@@ -167,18 +167,33 @@ tests/test_core.py             # projection round-trip, layering and loop tests
 
 Run the tests with `python -m pytest -q` (no checkpoint needed).
 
-## Credits and license
+## Citation
 
-- Depth model: [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) (Yang et al., NeurIPS 2024).
-  The code and the **Small** checkpoint are Apache-2.0. Base/Large checkpoints are CC-BY-NC-4.0.
-- Example photos come from the Depth Anything V2 repository's `assets/examples` and belong to their owners.
-- This project is released under the [Apache License 2.0](LICENSE). See [NOTICE](NOTICE).
+If you use Parallax Anything in a paper, video or project, please cite this repository
+(GitHub's **"Cite this repository"** button gives the same entry in APA and BibTeX):
 
 ```bibtex
-@article{depth_anything_v2,
-  title   = {Depth Anything V2},
-  author  = {Yang, Lihe and Kang, Bingyi and Huang, Zilong and Zhao, Zhen and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang},
-  journal = {arXiv:2406.09414},
-  year    = {2024}
+@software{parallax_anything_2026,
+  author  = {{working-codes-demo}},
+  title   = {Parallax Anything: Turn Any Photo into a Cinematic 3D Camera Move},
+  year    = {2026},
+  version = {0.1.0},
+  url     = {https://github.com/working-codes-demo/parallax-anything},
+  license = {Apache-2.0}
 }
 ```
+
+A ⭐ on the repo also helps other people find it.
+
+## Acknowledgements
+
+Parallax Anything builds on these open-source projects:
+
+- [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2): depth model. Code and the **Small**
+  checkpoint are Apache-2.0; Base/Large checkpoints are CC-BY-NC-4.0.
+- [DINOv2](https://github.com/facebookresearch/dinov2): backbone layers, Apache-2.0.
+- Example photos come from the Depth Anything V2 repository's `assets/examples` and belong to their owners.
+
+## License
+
+[Apache License 2.0](LICENSE). Third-party notices are in [NOTICE](NOTICE).
